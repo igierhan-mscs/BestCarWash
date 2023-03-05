@@ -1,0 +1,22 @@
+Ian Gierhan
+COMC 2754
+Computer Careers Capstone Project
+Date:3/4/23
+
+Project Name: BestCarWash
+
+This is a project I made for a class called Computer Careers Capstone.
+This is a website I created called Best Car Wash
+
+index.html - This is the home page.
+about.html - This is the about page.
+tutorials.html - This is the tutorials page.
+products.html - This is the products page.
+style2.css - This is the CSS file.
+script.js - This is the JavaScript file.
+
+Image files:
+bulldog.png
+bulldog2.png
+
+--I have added many comments inside all the files to better understand this project.
