@@ -19,4 +19,6 @@ Image files:
 bulldog.png
 bulldog2.png
 
+The URL to the website is: autodetail.great-site.net
+
 --I have added many comments inside all the files to better understand this project.
