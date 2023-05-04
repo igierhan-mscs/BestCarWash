@@ -12,12 +12,29 @@ index.html - This is the home page.
 about.html - This is the about page.
 tutorials.html - This is the tutorials page.
 products.html - This is the products page.
+checkout.html - This is the checkout confirmation page.
 style2.css - This is the CSS file.
 script.js - This is the JavaScript file.
+action.php - This is the PHP file for the home page form.
+connect.php - This is the PHP file for the about page form.
+
 
 Image files:
-bulldog.png
-bulldog2.png
+favicon.ico - This is the icon in the page tab.
+
+polish1.png - product image.
+product1.png - product image.
+product3.png - product image.
+shampoo1.png - product image.
+soap1.png - product image.
+soap2.png - product image.
+sponge.jpeg - product image.
+wax1.png - product image.
+wax2.png - product image.
+
+seats2.jpg - bottom image on home page.
+wash.jpg - top image on home page.
+shop4.jpg - image on about page.
 
 The URL to the website is: autodetail.great-site.net
 
