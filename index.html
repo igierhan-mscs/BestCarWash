@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<!-- Ian Gierhan
+Capstone Project
+2023 Spring Semester -->
+
+<html lang="en">
+
+<head>
+<title>CSS Template</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" async></script>
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<div class="topnav" id="myTopnav">
+    <a href="#" class="active" style="color:black; font-family: monospace;">Best_Car_Wash</a>
+    <a href="products.html">Products</a>
+    <a href="tutorials.html">Tutorials</a>
+    <a href="about.html">About</a>
+    <a href="products.html#section75"><i class="fa fa-shopping-cart" style="color:aqua"></i></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- Showcase -->
+<section>
+<div class="bg-img">
+
+  <form method="post" action="action.php" class="container">
+    <p id="title"><b>Join Email List</b></p>
+    
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    <button type="submit" value="Submit" class="btn"><b>Submit</b></button>
+  </form>
+
+</div>
+</section>
+<!-- End of showcase -->
+
+<!-- Product Section -->
+<section>
+<div class="left2">
+    <h2>Towels</h2>
+    <img class="product" src="product1.png" style="width:200px; height:150px;">
+    <p>$3.99 each</p>
+</div>
+
+<div class="main2">
+    <h2>Wax</h2>
+    <img class="product" src="wax2.png" style="width:200px; height:150px;">
+    <p>$14.99</p>
+</div>
+
+<div class="right2">
+    <h2>Brush</h2>
+    <img class="product" src="product3.png" style="width:200px; height:150px;">
+    <p>$12.99</p>
+</div>
+</section>
+
+<!-- New 5-star section -->
+<section>
+  <div class="container1">
+    <img src="seats2.jpg" alt="Notebook" style="width: 100%; min-height: 165px;">
+    <div class="content">
+      <h1 id="stars"><b>5 Stars</b>
+        <div class="fastars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      </h1>
+      <p>Best products out there! ~ Steve Thomas</p>
+    </div>
+  </div>
+</section>
+<!-- End new 5-star section -->
+
+<!-- Footer -->
+<footer>
+    <ul style="list-style-type: none;">
+        <li style="font-family: monospace; font-size: x-large; padding: 2px 0px;">Contact_us:</li>
+        <li>101 East Road, Suite 1</li>
+        <li>St. Paul, MN 55999</li>
+        <li>1-800-555-5555</li>
+        <li>
+            <i class="fa fa-youtube-play"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook-official"></i>
+        </li>
+        <li>&nbsp;</li>
+        <li>&copy; 2023 BestCarWash</li>
+    </ul>
+</footer>
+
+</body>
+</html>

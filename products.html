@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js" async></script>
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active" style="color:black; font-family: monospace;">Best_Car_Wash</a>
+    <a href="#">Products</a>
+    <a href="tutorials.html">Tutorials</a>
+    <a href="about.html">About</a>
+    <a href="products.html#section75"><i class="fa fa-shopping-cart" style="color:aqua"></i></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- Main -->
+<div style="padding: 20px;">
+    <h2>Products</h2>
+    <p style="text-indent: 15px">Welcome to our carwash supplies website, where you'll find everything you need to keep your 
+        vehicles looking their best. We understand that a clean car not only looks great, but it also 
+        helps maintain its value and longevity. That's why we've curated a wide selection of 
+        high-quality carwash supplies that are perfect for both professional carwash businesses 
+        and at-home car enthusiasts. Whether you're looking for soaps, waxes, towels, brushes, 
+        or any other carwash supplies, we've got you covered. Our products are made with the highest 
+        quality materials, and we stand behind every item we sell. Browse our website and find the 
+        perfect carwash supplies to keep your vehicles sparkling clean.</p>
+</div>
+<div class="responsive-three-column-grid">
+    <div class="card">
+        <img src="product1.png" alt="Towels" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Towels</h1>
+        <p class="price">$3.99</p>
+        <p>This towel product for cars is made from a soft, absorbent microfiber material that is ideal for cleaning and drying a car's exterior and interior surfaces without scratching or leaving lint.</p>
+        <button onclick="addToCart(3.99), myFunction1()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="wax1.png" alt="Wax" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Wax</h1>
+        <p class="price">$14.99</p>
+        <p>This car wax product is designed to protect and enhance the appearance of a car's paintwork, creating a barrier between the paint and the elements while providing a shiny, glossy finish.</p>
+        <button onclick="addToCart(14.99), myFunction2()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="product3.png" alt="Brush" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Brush</h1>
+        <p class="price">$12.99</p>
+        <p>This car interior brush product is a versatile tool designed to effectively clean hard-to-reach areas inside a car, such as air vents, dashboard crevices, and upholstery seams.</p>
+        <button onclick="addToCart(12.99), myFunction3()">Add to Cart</button>
+
+    </div>
+</div>
+
+<div class="responsive-three-column-grid">
+    <div class="card">
+        <img src="soap1.png" alt="Towels" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Soap</h1>
+        <p class="price">$19.99</p>
+        <p>This car soap product is a gentle yet effective cleaner that removes dirt and grime from a car's exterior while maintaining the paint's shine and protecting its wax coating.</p>
+        <button onclick="addToCart(19.99), myFunction4()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="polish1.png" alt="Wax" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Polish Pad</h1>
+        <p class="price">$10.99</p>
+        <p>This polishing pad is a soft foam pad designed to be used with a polishing compound to restore a car's paint finish by removing imperfections.</p>
+        <button onclick="addToCart(10.99), myFunction5()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="sponge.jpeg" alt="Brush" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Sponge</h1>
+        <p class="price">$8.99</p>
+        <p>This car sponge product is a durable, absorbent sponge that is used to clean a car's exterior surfaces, such as the body, wheels, and tires, by effectively removing dirt and grime.</p>
+        <button onclick="addToCart(8.99), myFunction6()">Add to Cart</button>
+
+    </div>
+</div>
+
+<div class="responsive-three-column-grid">
+    <div class="card">
+        <img src="soap2.png" alt="Towels" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Pro Soap</h1>
+        <p class="price">$23.99 each</p>
+        <p>This car soap pro product is a concentrated, heavy-duty formula that effectively cleans and removes tough dirt and grime from a car's exterior, while being safe for all paint types.</p>
+        <button onclick="addToCart(23.99), myFunction7()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="wax2.png" alt="Wax" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Pro Wax</h1>
+        <p class="price">$24.99</p>
+        <p>This car wax pro product is a high-performance, professional-grade wax designed to provide superior protection and shine to a car's paintwork, with long-lasting durability.</p>
+        <button onclick="addToCart(24.99), myFunction8()">Add to Cart</button>
+
+    </div>
+    <div class="card">
+        <img src="shampoo1.png" alt="Brush" style="width:200px; height:150px; border-radius: 8px;">
+        <h1>Shampoo</h1>
+        <p class="price">$14.99</p>
+        <p>This car interior shampoo product is designed to clean and remove dirt, stains, and odors from a car's upholstery, carpets, and other surfaces, leaving them fresh and clean.</p>
+        <button onclick="addToCart(14.99), myFunction9()">Add to Cart</button>
+
+    </div>
+</div>
+
+<!-- Checkout -->
+<section id="section75">
+    <h2>Best_Car_Wash Checkout</h2>
+    <p>Don't enter any real information. This is just a sample and non-functional. Feel free to enter fake info.</p>
+    <div class="row75">
+      <div class="col-75">
+        <div class="container75">
+          <form action="checkout.html">
+          
+            <div class="row75">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="New York">
+    
+                <div class="row75">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="NY">
+                  </div>
+                  <div class="col-50">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="10001">
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa fa-cc-visa" style="color:navy;"></i>
+                  <i class="fa fa-cc-amex" style="color:blue;"></i>
+                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                  <i class="fa fa-cc-discover" style="color:orange;"></i>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <div class="row75">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+            <input type="submit" value="Continue to checkout" class="btn">
+    
+          </form>
+        </div>
+      </div>
+      <div class="col-25">
+        <div class="container75">
+          <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span></h4>
+          <p><a id="demo2"></a> <span class="price"><a id="demo"></a></span></p>
+          <p><a id="demo4"></a> <span class="price"><a id="demo3"></a></span></p>
+          <p><a id="demo6"></a> <span class="price"><a id="demo5"></a></span></p>
+
+          <p><a id="demo8"></a> <span class="price"><a id="demo7"></a></span></p>
+          <p><a id="demo10"></a> <span class="price"><a id="demo9"></a></span></p>
+          <p><a id="demo12"></a> <span class="price"><a id="demo11"></a></span></p>
+
+          <p><a id="demo14"></a> <span class="price"><a id="demo13"></a></span></p>
+          <p><a id="demo16"></a> <span class="price"><a id="demo15"></a></span></p>
+          <p><a id="demo18"></a> <span class="price"><a id="demo17"></a></span></p>
+          <p><a id="demo20"></a> <span class="price"><a id="demo19"></a></span></p>
+          <div>Total: <span class="price" id="total">0.00</span></div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <ul style="list-style-type: none;">
+        <li style="font-family: monospace; font-size: x-large; padding: 2px 0px;">Contact_us:</li>
+        <li>101 East Road, Suite 1</li>
+        <li>St. Paul, MN 55999</li>
+        <li>1-800-555-5555</li>
+        <li>
+            <i class="fa fa-youtube-play"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook-official"></i>
+        </li>
+        <li>&nbsp;</li>
+        <li>&copy; 2023 BestCarWash</li>
+    </ul>
+</footer>
+
+</body>
+</html>
+
